@@ -8,7 +8,7 @@ import { BsDot } from 'react-icons/bs';
 var AppTwo = () => {
   return (
     <div>
-      <div style={{border: '0.5px solid white', borderRadius: '2%', padding: '10px', marginBottom: '50px', height: '100%'}}>
+      <div style={{border: '0.5px solid white', borderRadius: '2%', padding: '10px', marginBottom: '15px', height: '100%'}}>
 
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <div>

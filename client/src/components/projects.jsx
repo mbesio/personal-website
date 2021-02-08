@@ -2,6 +2,7 @@ import React from 'react';
 
 import AppOne from './appOne.jsx';
 import AppTwo from './appTwo.jsx';
+import AppThree from './appThree.jsx';
 
 var Projects = () => {
   return (
@@ -14,6 +15,14 @@ var Projects = () => {
           </div>
           <div style={{width: '50%', marginLeft: '1%', flex:'1'}}>
             <AppTwo />
+          </div>
+        </div>
+        <div style={{ display:'flex' }}>
+          <div style={{width: '50%', marginRight: '1%', flex:'1'}}>
+            <AppThree />
+          </div>
+          <div style={{width: '50%', marginLeft: '1%', flex:'1'}}>
+            {/* Placeholder for a fourth app */}
           </div>
         </div>
       </div>
