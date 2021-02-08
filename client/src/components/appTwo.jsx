@@ -16,11 +16,6 @@ var AppTwo = () => {
               <IoLogoGithub />
             </a>
           </div>
-          <div>
-            <a className='icons' style={{ fontSize: '200%', padding: '15px'}} href='http://fec-live.s3-website.us-east-2.amazonaws.com/' target="_blank" rel="noopener noreferrer">
-              <MdOpenInNew />
-            </a>
-          </div>
         </div>
 
         <div style={{ alignItems: 'flex-start', paddingBottom: '10px' }}>

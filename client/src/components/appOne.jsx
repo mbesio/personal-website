@@ -13,7 +13,7 @@ var AppOne = () => {
 
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <div>
-            <a className='icons' style={{ fontSize: '200%', padding: '15px'}} href='https://github.com/mbesio/mutuo-facile' target="_blank" rel="noopener noreferrer">
+            <a className='icons' style={{ fontSize: '200%', padding: '15px 0px'}} href='https://github.com/mbesio/mutuo-facile' target="_blank" rel="noopener noreferrer">
               <IoLogoGithub />
             </a>
           </div>

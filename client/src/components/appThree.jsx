@@ -26,7 +26,7 @@ var AppThree = () => {
         <div style={{display:'flex'}}>
           <div >
             <div style={{ fontSize: '150%', fontWeight: '600' }}> Devfirst.io </div>
-            <p>An online platform for engineers to find their dream jobs</p>
+            <p>An online platform for engineers to find their dream job</p>
           </div>
           </div>
           <div>
