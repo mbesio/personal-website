@@ -2,6 +2,7 @@ import React from 'react';
 
 import { IoLogoGithub } from 'react-icons/io';
 import { MdOpenInNew } from 'react-icons/md';
+import { BsDot } from 'react-icons/bs';
 
 
 
@@ -31,13 +32,13 @@ var AppOne = () => {
         <div style={{display:'flex'}}>
           <div>
             <div style={{ fontSize: '150%', fontWeight: '600' }}> Mutuo Facile</div>
-            <div style={{ fontSize: '100%', fontWeight: '600' }}> (Easy Mortgage, in Italian)</div>
             <p>A mortgage calculator for the italian market</p>
           </div>
           </div>
-          <div style ={{ display: 'flex', justifyContent: 'space-evenly' }}>
+          <div style ={{ fontWeight: '600', display: 'flex', justifyContent: 'flex-start' }}>
 
               <div>React</div>
+              <BsDot/>
               <div>Semantic UI</div>
 
         </div>

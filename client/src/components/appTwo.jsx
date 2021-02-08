@@ -2,7 +2,7 @@ import React from 'react';
 
 import { IoLogoGithub } from 'react-icons/io';
 import { MdOpenInNew } from 'react-icons/md';
-
+import { BsDot } from 'react-icons/bs';
 
 
 var AppTwo = () => {
@@ -17,7 +17,7 @@ var AppTwo = () => {
             </a>
           </div>
           <div>
-            <a className='icons' style={{ fontSize: '200%', padding: '15px'}} href='https://mutuo-facile.com/' target="_blank" rel="noopener noreferrer">
+            <a className='icons' style={{ fontSize: '200%', padding: '15px'}} href='http://fec-live.s3-website.us-east-2.amazonaws.com/' target="_blank" rel="noopener noreferrer">
               <MdOpenInNew />
             </a>
           </div>
@@ -31,16 +31,22 @@ var AppTwo = () => {
         <div style={{display:'flex'}}>
           <div >
             <div style={{ fontSize: '150%', fontWeight: '600' }}> Barnes and Undignified </div>
-            <p style={{paddingBottom: '16px'}}>An online book store</p>
+            <p>An online book store</p>
           </div>
           </div>
           <div>
-          <div style ={{ display: 'flex', justifyContent: 'space-evenly' }}>
+          <div style ={{ fontWeight: '600', display: 'flex', justifyContent: 'flex-start' }}>
             <div>React</div>
+            <BsDot/>
             <div>Node </div>
+            <BsDot/>
             <div>Express </div>
+            <BsDot/>
             <div>Mongo </div>
+            <BsDot/>
+            <div>Travis CI </div>
           </div>
+
         </div>
 
       </div>

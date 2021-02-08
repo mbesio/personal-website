@@ -12,3 +12,14 @@ body {
 .icons {
   color: white;
 }
+
+.button {
+  background-color: white;
+  color: black;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
